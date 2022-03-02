@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+margin: 0px;
+}
+header{
+    background-color:rgb(46, 46, 53);   
+    padding: 1px;
+  
+}
+header h1{
+
+margin-left: 30px;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+}
+header h1 span{
+    color: rgb(255, 153, 0);
+    font-size: 50px;
+}
+.navbar{
+    background-color: rgb(139, 135, 130);
+    margin: 0px;
+    padding-left: 0px;
+    
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-right-width: 2px;
+    border-right-style:solid ;
+    border-color:black ;
+    color: aliceblue;
+}
+/****end navbar*****/
+/********start container************/
+a{color: rgb(255, 153, 0);}
+.container .posts{
+    width: 70%;
+    display: inline-block;
+    padding: 20px;
+    background-color: rgb(239, 242, 245);
+}
+.container .side{
+    width: 30%;
+    background-color: rgb(212, 208, 203);
+    display: inline-block;
+    padding: 20px;
+    height: 525px;
+    float:right;}
+.container .side .us{
+    padding-left: 0px;
+}
+.container .side .us  li{
+    list-style: none;
+    color: rgb(255, 145, 0);
+    padding-bottom: 20px;
+  
+}
+
+.container .posts .post .img,
+.container .posts .post .text{
+    float: left;
+padding: 10px;}
+.container .posts .post img{
+    width: 150px;
+    height: 120px;
+}
+/********end container************/
+footer  {
+    text-align: center;
+    background-color: rgb(97, 94, 87);
+    padding: 15px;
+
+}
+    
